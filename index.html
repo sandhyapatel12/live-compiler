@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Editor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="nav">Live Code Editor</div>
+    <div class="code-area">
+        <textarea id="htmlCode" placeholder="HTML Code" Oninput="showPreview()" ><!--HTML code-->
+        </textarea>
+        <textarea id="cssCode" placeholder="CSS Code" Oninput="showPreview()"><!--CSS code-->
+        </textarea>
+        <textarea id="jsCode" placeholder="JavaScript Code" Oninput="showPreview()"><!--JavaScript code-->
+        </textarea>
+    </div>
+    <div class="preview-area">
+        <iframe id="preview-window"></iframe>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
